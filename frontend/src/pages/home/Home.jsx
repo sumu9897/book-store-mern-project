@@ -1,12 +1,14 @@
 import React from 'react'
 import Banner from './Banner'
-import TopSelllers from './TopSelllers'
+import TopSellers from './TopSellers'
+import Recommened from './Recommened'
 
 function Home() {
   return (
     <>
       <Banner />
-      <TopSelllers/>
+      <TopSellers />
+      <Recommened />
     </>
   )
 }
